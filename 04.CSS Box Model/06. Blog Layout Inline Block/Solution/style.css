@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+article {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+header {
+    display: inline-block;
+    width: 70%;
+}
+
+nav h1 {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+nav ul {
+    padding-left: 25px;
+}
+
+.container-nav {
+    display: inline-block;
+}
+
+nav {
+    padding: 20px;
+    margin: 20px 20px;
+}
+
+img {
+    width: 10em;
+    height: 10em;
+    padding: 10px;
+}
+
+section {
+    display: inline-block;
+    width: 70%;
+}
+
+section ul {
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+footer {}

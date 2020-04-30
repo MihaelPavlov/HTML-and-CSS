@@ -1,0 +1,5 @@
+@import url(../Resources/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css);
+li.before {
+    content: "\f005";
+    font-family: "Font Awesome 5 Free";
+}
