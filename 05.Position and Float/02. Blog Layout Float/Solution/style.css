@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.site-img-1 {
+    float: right;
+    border: 2px solid black;
+    padding: 10px 10px 5px 10px;
+}
+
+.site-section-1 {
+    border-top: 2px solid black;
+    padding-top: 10px;
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.site-section-2 {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.site-section-2 h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.side-text {
+    border-left: 2px solid gainsboro;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    width: 20em;
+}
+
+.side-text p {
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.name {
+    float: right;
+}
+
+.site-img-2 {
+    float: left;
+    border: 2px solid black;
+    padding: 10px 10px 5px 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.site-section-3 {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.site-section-3 h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.site-sidebar {
+    float: right;
+    padding-left: 100px;
+    width: 20%
+}
+
+article {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.site-sidebar h4 {
+    font-weight: bold;
+    margin-right:
+}
+
+.site-sidebar ul {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.site-sidebar li {}
+
+.site-sidebar a {
+    text-decoration: none;
+    color: limegreen;
+}
+
+header,
+.site-section-1,
+.site-section-2,
+.site-section-3 {
+    max-width: 100%;
+}
+
+p {
+    width: 85%;
+}
